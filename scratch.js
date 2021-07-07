@@ -1,7 +1,3 @@
-console.log("Hello World!");
-
-const a = {
-  a: "b",
-};
-
-console.log(a);
+export function greeting(name) {
+  return `Hello, ${name}.`;
+}
